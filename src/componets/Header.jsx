@@ -10,7 +10,7 @@ const Header2 = () => {
           <span className="font-semibold text-xl tracking-tight">
             <a aria-current="page" className="" href="/">
               <img
-                src="../../public/new-images/passnip-logo-e2a2a6e12fb2a8dc12318dd7ace91c43 (1).svg"
+                src="new-images/passnip-logo-e2a2a6e12fb2a8dc12318dd7ace91c43 (1).svg"
                 alt="Passnip"
                 className="w-32"
               />
@@ -82,7 +82,7 @@ const Header2 = () => {
             </svg>
             <img
               alt="Character remembering their password"
-              src="../../public/new-images/passnip-illustration-a-72df80596abb499fd4df3c9fed85fee4 (1).svg"
+              src="new-images/passnip-illustration-a-72df80596abb499fd4df3c9fed85fee4 (1).svg"
               className="mx-auto w-48 sm:w-56 lg:w-2/3 img-scale "
             />
           </div>

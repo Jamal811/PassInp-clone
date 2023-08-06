@@ -1,4 +1,3 @@
-import "./App.css";
 import Black from "./componets/Black";
 import Section from "./componets/Section";
 import Footer from "./componets/Footer";

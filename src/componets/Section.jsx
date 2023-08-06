@@ -8,7 +8,7 @@ const Section = () => {
           <div className="lg:flex flex-1">
             <div className="w-full lg:w-1/2 max-w-4xl mt-4 sm:mt-10 mx-auto flex items-center relative">
               <img
-                src="../../public/new-images/passnip-illustration-b-f8b59b37e759edc2de2d1bd561d271ca%20(1).svg"
+                src="new-images/passnip-illustration-b-f8b59b37e759edc2de2d1bd561d271ca%20(1).svg"
                 alt=""
                 className="mx-auto w-64 lg:w-2/3"
               />

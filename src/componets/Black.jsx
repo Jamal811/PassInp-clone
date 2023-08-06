@@ -16,7 +16,7 @@ const Black = () => {
               <p class="mono-font text-center">- XKDC</p>
               <img
                 alt="Evil computer illustration"
-                src="../../public/new-images/evil.svg"
+                src="new-images/evil.svg"
                 className="mx-auto w-40 sm:w-48 mt-16"
               />
             </div>

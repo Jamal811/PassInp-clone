@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="bg-dark rounded-lg sm:rounded-2xl">
           <a href="/#top">
             <img
-              src="../../public/new-images/passnip-logo-white-1ba096f7da607e7771084559ad17470b (1).svg"
+              src="new-images/passnip-logo-white-1ba096f7da607e7771084559ad17470b (1).svg"
               className="w-32 m-auto mt-8"
               alt="Passnip logo"
             />

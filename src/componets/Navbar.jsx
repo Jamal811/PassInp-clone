@@ -38,7 +38,7 @@ const Navbar = () => {
                   </a>
                   <a target="_blank" href="/freebitcoin">
                     <img
-                      src="../../public/new-images/bitcoin.png"
+                      src="new-images/bitcoin.png"
                       className="w-16 sm:w-24 rounded-md"
                     />
                   </a>
