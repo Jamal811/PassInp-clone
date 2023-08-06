@@ -8,8 +8,36 @@ const Faq = () => {
   };
 
   return (
-    <div className="bg-white p-1 flex flex-col">
-      <div className="main-wrap flex-1 flex flex-col p-4 sm:p-8 bg-contain sm:bg-cover bg-color rounded-lg sm:rounded-2xl bg-teal-600 my-1">
+    <div className="bg-white p-2 pt-0 flex flex-col relative">
+      <svg
+        className="ani2-mid w-3 h-3 sm:w-8 sm:h-8 absolute bottom-0"
+        style={{ right: "24%", top: "200px" }}
+        viewBox="0 0 54 54"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M27 44C36.3888 44 44 36.3888 44 27C44 17.6112 36.3888 10 27 10C17.6112 10 10 17.6112 10 27C10 36.3888 17.6112 44 27 44ZM27 54C41.9117 54 54 41.9117 54 27C54 12.0883 41.9117 0 27 0C12.0883 0 0 12.0883 0 27C0 41.9117 12.0883 54 27 54Z"
+          fill="#2C7063"
+        ></path>
+      </svg>
+      <svg
+        className="ani-slow w-3 h-3 sm:w-8 sm:h-8 absolute bottom-0"
+        style={{ left: "22%", top: "380px" }}
+        viewBox="0 0 54 54"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M0 27C0 26.9159 0.0642861 26.8455 0.147907 26.8368C14.2023 25.3713 25.3713 14.2023 26.8368 0.147904C26.8455 0.0642832 26.9159 0 27 0V0C27.0841 0 27.1545 0.0642861 27.1632 0.147907C28.6287 14.2023 39.7977 25.3713 53.8521 26.8368C53.9357 26.8455 54 26.9159 54 27V27C54 27.0841 53.9357 27.1545 53.8521 27.1632C39.7977 28.6287 28.6287 39.7977 27.1632 53.8521C27.1545 53.9357 27.0841 54 27 54V54C26.9159 54 26.8455 53.9357 26.8368 53.8521C25.3713 39.7977 14.2023 28.6287 0.147904 27.1632C0.0642832 27.1545 0 27.0841 0 27V27Z"
+          fill="#F06F6F"
+        ></path>
+      </svg>
+      <div className="main-wrap flex-1 flex flex-col p-4 sm:p-8 bg-contain sm:bg-cover bg-color rounded-lg sm:rounded-2xl bg-cyan-200 ">
         <div className="max-w-3xl mx-auto my-24 relative">
           <p
             className="text-sm sm:text-lg mono-font tracking-widest text-center"

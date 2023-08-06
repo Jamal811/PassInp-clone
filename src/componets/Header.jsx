@@ -5,7 +5,7 @@ import "./MovingImages.css";
 const Header2 = () => {
   return (
     <div className="bg-white p-1 flex flex-col">
-      <div className=" bg-green-900 main-wrap flex-1 flex flex-col p4 sm:p-8 rounded-lg sm:rounded-2xl">
+      <div className="main-wrap flex-1 flex flex-col p4 sm:p-8 rounded-lg sm:rounded-2xl bg-cyan-50">
         <nav className="flex items-center justify-between flex-wrap p-6">
           <span className="font-semibold text-xl tracking-tight">
             <a aria-current="page" className="" href="/">
@@ -149,7 +149,7 @@ const Header2 = () => {
                     className="bg-black text-xs text-white px-3 py-2 rounded absolute transition duration-200 ease-in-out transform scale-50 opacity-0"
                     role="alert"
                   >
-                    <strong class="font-bold mono-font uppercase">
+                    <strong className="font-bold mono-font uppercase">
                       COPIED TO CLIPBOARD
                     </strong>
                   </div>
@@ -166,7 +166,7 @@ const Header2 = () => {
                           viewBox="0 0 20 20"
                           fill="currentColor"
                           style={{ left: "-1px", top: "-1px" }}
-                          class="relative w-3 h-3"
+                          className="relative w-3 h-3"
                         >
                           <path
                             fill-rule="evenodd"
@@ -175,21 +175,21 @@ const Header2 = () => {
                           ></path>
                         </svg>
                       </span>
-                      <span class="text-sm">Add numbers</span>
+                      <span className="text-sm">Add numbers</span>
                     </label>
                   </div>
                   <div className="ml-4 mb-6">
                     <label className="block text-black font-bold mono-font relative cursor-pointer hover:opacity-75">
                       <input
                         type="checkbox"
-                        class="w-0 leading-tight invisible"
+                        className="w-0 leading-tight invisible"
                       />
                       <span className="mr-2 relative custom-checkbox text-white w-4 h-4 inline-block  left-0 mt-1 rounded-sm border-2 shadow-sm  border-white bg-white bg-opacity-50">
                         <svg
                           viewBox="0 0 20 20"
                           fill="currentColor"
                           style={{ left: "-1px", top: "-1px" }}
-                          class="relative w-3 h-3"
+                          className="relative w-3 h-3"
                         >
                           <path
                             fill-rule="evenodd"
@@ -198,7 +198,7 @@ const Header2 = () => {
                           ></path>
                         </svg>
                       </span>
-                      <span class="text-sm">Capitalize</span>
+                      <span className="text-sm">Capitalize</span>
                     </label>
                   </div>
                 </div>
